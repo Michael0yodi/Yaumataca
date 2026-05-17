@@ -45,6 +45,8 @@ target_sources(${PROJECT} PUBLIC
   ${CMAKE_CURRENT_SOURCE_DIR}/src/processors/mouse_c1351.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/src/handlers/bare_xbox_one.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/src/handlers/bare_xbox360_wireless.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/handlers/hid_joydivision.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/handlers/hid_generic_snes.cpp
 )
 
 target_include_directories(${PROJECT} PUBLIC
